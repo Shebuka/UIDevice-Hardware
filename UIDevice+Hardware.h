@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
 typedef NS_ENUM(NSUInteger, UIDeviceFamily) {
+    UIDeviceFamilyUnknown,
     UIDeviceFamilyiPhone,
     UIDeviceFamilyiPod,
     UIDeviceFamilyiPad,
     UIDeviceFamilyAppleTV,
-    UIDeviceFamilyUnknown,
+    UIDeviceFamilyAppleVision,
 };
 
 @interface UIDevice (Hardware)
